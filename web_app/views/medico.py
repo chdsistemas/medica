@@ -1,6 +1,6 @@
 from django.urls import reverse_lazy
 from django.views.generic import ListView, CreateView
-from api_app.models.medico import Medico
+from web_app.models.medico import Medico
 from web_app.forms.medico import MedicoForm
 
 class MedicoListView(ListView):

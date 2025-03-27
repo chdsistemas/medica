@@ -1,6 +1,6 @@
 from django.db import models
-from api_app.models.persona import Persona
-from api_app.models.especialidad import Especialidad
+from web_app.models.persona import Persona
+from web_app.models.especialidad import Especialidad
 
 class Medico(Persona):
     carnet = models.CharField(max_length=50, verbose_name='Número de carnet médico')

@@ -1,5 +1,5 @@
 from django.db import models
-from api_app.models.persona import Persona
+from web_app.models.persona import Persona
 
 class Paciente(Persona):
     TIPO = [

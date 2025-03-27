@@ -1,5 +1,5 @@
 from django import forms
-from api_app.models.especialidad import Especialidad
+from web_app.models.especialidad import Especialidad
 
 class EspecialidadForm(forms.ModelForm):
     class Meta:

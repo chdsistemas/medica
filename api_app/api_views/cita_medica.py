@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from api_app.models.cita_medica import CitaMedica
+from web_app.models.cita_medica import CitaMedica
 from api_app.serializers.cita_medica import CitaMedicaSerializer
 
 class CitaMedicaViewSet(viewsets.ModelViewSet):

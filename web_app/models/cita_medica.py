@@ -1,6 +1,6 @@
 from django.db import models
-from api_app.models.paciente import Paciente
-from api_app.models.medico import Medico
+from web_app.models.paciente import Paciente
+from web_app.models.medico import Medico
 
 class CitaMedica(models.Model):
     codigo = models.CharField(max_length=50, verbose_name='Código de la cita médica')

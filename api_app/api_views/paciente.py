@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from api_app.models.paciente import Paciente
+from web_app.models.paciente import Paciente
 from api_app.serializers.paciente import PacienteSerializer
 
 class PacienteViewSet(viewsets.ModelViewSet):

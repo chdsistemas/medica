@@ -1,9 +1,9 @@
 from django import forms
-from api_app.models.paciente import Paciente
+from web_app.models.paciente import Paciente
 
 class PacienteForm(forms.ModelForm):
     class Meta:
         model = Paciente
-        fields = '__all__'
+        fields = ['documento', 'username', 'first_name', 'last_name', 'ciudad_residencia', 'telefono', 'email', 'tipo']
 
         

@@ -1,5 +1,5 @@
 from django import forms
-from api_app.models.cita_medica import CitaMedica
+from web_app.models.cita_medica import CitaMedica
 
 class CitaMedicaForm(forms.ModelForm):
     class Meta:
